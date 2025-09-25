@@ -20,6 +20,5 @@ if __name__ == "__main__":
     headlines = fetch_headlines(url)
     with open('headlines.txt', 'w', encoding='utf-8') as f:
         for line in headlines:
-            f.write(line + '
-')
+            f.write(line + ' ')
     print(f"Scraped {len(headlines)} headlines to headlines.txt")
