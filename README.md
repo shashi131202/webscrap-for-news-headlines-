@@ -63,4 +63,4 @@ A Python script that scrapes news headlines from a given website (default: **BBC
   ```
 
 ---
----
+
